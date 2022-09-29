@@ -17184,9 +17184,6 @@ h1, .h1 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
   padding: 0 1em;
   text-transform: uppercase;
   display: none;
@@ -17199,6 +17196,7 @@ h1, .h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    display: none;
   }
 }
 #top-bar .mobile-menu .fa {
@@ -17341,6 +17339,11 @@ h1, .h1 {
   color: #1a1818;
   display: block;
   transition: 0.4s ease;
+}
+@media (max-width: 768px) {
+  .home-call-to-acton .action {
+    margin-bottom: 30px;
+  }
 }
 .home-call-to-acton .action .title {
   padding: 10px 15px;
@@ -17595,9 +17598,12 @@ h1, .h1 {
   color: white;
   max-width: 8em;
 }
+.home-join-our-community .contact-form-flex input[type=submit]:hover {
+  background-color: #d0bda5;
+  color: #000000;
+}
 
 .home-collections {
-  height: 540px;
   background-color: #d0bda5;
   padding-top: 140px;
 }
@@ -17652,6 +17658,11 @@ h1, .h1 {
   color: #1a1818;
   display: block;
   transition: 0.4s ease;
+}
+@media (max-width: 992px) {
+  .home-collections .action-holder .action {
+    margin-bottom: 30px;
+  }
 }
 .home-collections .action-holder .action a {
   padding: 0;
@@ -17731,7 +17742,7 @@ h1, .h1 {
 }
 @media (max-width: 992px) {
   .home-collections .col-lg-2 .button-action-holder .action .button-holder {
-    height: 180px;
+    height: 120px;
   }
 }
 .home-collections .col-lg-2 .button-action-holder .action .button-holder .img {
@@ -17747,6 +17758,9 @@ h1, .h1 {
   text-transform: uppercase;
   white-space: nowrap;
   font-size: 14px;
+  transition: 0.4s ease;
+  color: white;
+  background-color: #000000;
 }
 @media (max-width: 992px) {
   .home-collections .col-lg-2 .button-action-holder .action .btn, .home-collections .col-lg-2 .button-action-holder .action .wpcf7 input[type=submit], .wpcf7 .home-collections .col-lg-2 .button-action-holder .action input[type=submit], .home-collections .col-lg-2 .button-action-holder .action .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .home-collections .col-lg-2 .button-action-holder .action a.button, .home-collections .col-lg-2 .button-action-holder .action .woocommerce-info a.button, .woocommerce-info .home-collections .col-lg-2 .button-action-holder .action a.button {
@@ -17755,6 +17769,154 @@ h1, .h1 {
 }
 .home-collections .col-lg-2 .button-action-holder .action .btn i, .home-collections .col-lg-2 .button-action-holder .action .wpcf7 input[type=submit] i, .wpcf7 .home-collections .col-lg-2 .button-action-holder .action input[type=submit] i, .home-collections .col-lg-2 .button-action-holder .action .woocommerce-notices-wrapper .woocommerce-message a.button i, .woocommerce-notices-wrapper .woocommerce-message .home-collections .col-lg-2 .button-action-holder .action a.button i, .home-collections .col-lg-2 .button-action-holder .action .woocommerce-info a.button i, .woocommerce-info .home-collections .col-lg-2 .button-action-holder .action a.button i {
   margin-left: 1.5em;
+}
+.home-collections .col-lg-2 .button-action-holder .action .btn:hover, .home-collections .col-lg-2 .button-action-holder .action .wpcf7 input[type=submit]:hover, .wpcf7 .home-collections .col-lg-2 .button-action-holder .action input[type=submit]:hover, .home-collections .col-lg-2 .button-action-holder .action .woocommerce-notices-wrapper .woocommerce-message a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .home-collections .col-lg-2 .button-action-holder .action a.button:hover, .home-collections .col-lg-2 .button-action-holder .action .woocommerce-info a.button:hover, .woocommerce-info .home-collections .col-lg-2 .button-action-holder .action a.button:hover {
+  color: #000000;
+  background-color: #d0bda5;
+}
+
+.home-my-home {
+  margin-top: 240px;
+  background-image: url("../imgs/8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  padding-top: 140px;
+  padding-bottom: 170px;
+  overflow: hidden;
+}
+.home-my-home .margin-from-left {
+  margin-right: auto;
+  max-width: initial;
+}
+.home-my-home .img-album {
+  padding-right: 3vw;
+}
+@media (max-width: 992px) {
+  .home-my-home .img-album {
+    height: 80vh;
+    overflow: hidden;
+  }
+}
+@media (max-width: 768px) {
+  .home-my-home .img-album {
+    height: 70vh;
+    overflow: hidden;
+  }
+}
+.home-my-home .img-album img {
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .home-my-home .img-album img {
+    margin-top: 50px;
+    width: 90%;
+  }
+}
+.home-my-home h2, .home-my-home .h2 {
+  font-size: 60px;
+  font-style: italic;
+  font-family: "Crimson Text", serif;
+  color: white;
+}
+@media (max-width: 1500px) {
+  .home-my-home h2, .home-my-home .h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 1200px) {
+  .home-my-home h2, .home-my-home .h2 {
+    font-size: 36px;
+  }
+}
+.home-my-home .meta-data {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (max-width: 1200px) {
+  .home-my-home .meta-data {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.home-my-home .meta-data .post-details {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: -100px;
+  background-color: #f3f0ec;
+  margin-left: 20px;
+}
+@media (max-width: 992px) {
+  .home-my-home .meta-data .post-details {
+    margin-right: -300px;
+    margin-left: 0px;
+  }
+}
+.home-my-home .meta-data .post-details .date,
+.home-my-home .meta-data .post-details .sub-category {
+  padding: 0.5em 1em;
+  color: #000000;
+}
+.home-my-home .meta-data .category {
+  background-color: #000000;
+  padding: 0.5em 1em;
+}
+@media (max-width: 992px) {
+  .home-my-home .meta-data .category {
+    display: none;
+  }
+}
+.home-my-home p {
+  font-size: 24px;
+  font-weight: 200;
+}
+@media (max-width: 1500px) {
+  .home-my-home p {
+    font-size: 18px;
+  }
+}
+.home-my-home .buttons {
+  margin-top: 130px;
+}
+@media (max-width: 1500px) {
+  .home-my-home .buttons {
+    margin-top: 50px;
+  }
+}
+.home-my-home .buttons .btn, .home-my-home .buttons .wpcf7 input[type=submit], .wpcf7 .home-my-home .buttons input[type=submit], .home-my-home .buttons .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .home-my-home .buttons a.button, .home-my-home .buttons .woocommerce-info a.button, .woocommerce-info .home-my-home .buttons a.button {
+  background-color: #000000;
+  color: white;
+  padding: 0.5em 1.5em;
+  margin-right: 1em;
+  border-radius: 0;
+  text-decoration: none;
+  transition: ease 0.4s;
+}
+@media (max-width: 768px) {
+  .home-my-home .buttons .btn, .home-my-home .buttons .wpcf7 input[type=submit], .wpcf7 .home-my-home .buttons input[type=submit], .home-my-home .buttons .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .home-my-home .buttons a.button, .home-my-home .buttons .woocommerce-info a.button, .woocommerce-info .home-my-home .buttons a.button {
+    margin-bottom: 20px;
+  }
+}
+.home-my-home .buttons .btn .fa, .home-my-home .buttons .wpcf7 input[type=submit] .fa, .wpcf7 .home-my-home .buttons input[type=submit] .fa, .home-my-home .buttons .woocommerce-notices-wrapper .woocommerce-message a.button .fa, .woocommerce-notices-wrapper .woocommerce-message .home-my-home .buttons a.button .fa, .home-my-home .buttons .woocommerce-info a.button .fa, .woocommerce-info .home-my-home .buttons a.button .fa {
+  margin-left: 0.5em;
+}
+.home-my-home .buttons .btn:hover, .home-my-home .buttons .wpcf7 input[type=submit]:hover, .wpcf7 .home-my-home .buttons input[type=submit]:hover, .home-my-home .buttons .woocommerce-notices-wrapper .woocommerce-message a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .home-my-home .buttons a.button:hover, .home-my-home .buttons .woocommerce-info a.button:hover, .woocommerce-info .home-my-home .buttons a.button:hover {
+  background-color: #d0bda5;
+  color: #000000;
+}
+
+.home-my-testimonials {
+  background-color: darkgray;
+  min-height: 400px;
 }
 
 /*# sourceMappingURL=theme.css.map */

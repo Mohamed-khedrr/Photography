@@ -143,101 +143,51 @@ if ( is_front_page() ) {
             </div>
         </div>
 
-        <!--   -->
-        <!-- <div class="action-holder">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <a href="#" class="action">
-                        <div class="img-holder">
-                            <div class="img"
-                                style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
-                            </div>
-                        </div>
-                        <div class="title">fine art prints</div>
-
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <a href="#" class="action">
-                        <div class="img-holder">
-                            <div class="img"
-                                style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
-                            </div>
-                        </div>
-                        <div class="title">fine art prints</div>
-
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <a href="#" class="action">
-                        <div class="img-holder">
-                            <div class="img"
-                                style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
-                            </div>
-                        </div>
-                        <div class="title">fine art prints</div>
-
-                    </a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3">
-                    <a href="#" class="action">
-                        <div class="img-holder">
-                            <div class="img"
-                                style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
-                            </div>
-                        </div>
-                        <div class="title">fine art prints</div>
-
-                    </a>
-                </div>
-            </div>
-        </div> -->
-
         <div class="row">
             <div class="col-lg-10">
                 <div class="action-holder">
                     <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-6  col-lg-3">
                             <a href="#" class="action">
                                 <div class="img-holder">
                                     <div class="img"
-                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
+                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/7.jpg)">
+                                    </div>
+                                </div>
+                                <div class="title">Everyday prints</div>
+
+                            </a>
+                        </div>
+
+                        <div class="col-sm-6  col-lg-3">
+                            <a href="#" class="action">
+                                <div class="img-holder">
+                                    <div class="img"
+                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/1.jpg)">
                                     </div>
                                 </div>
                                 <div class="title">fine art prints</div>
 
                             </a>
                         </div>
-
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-6  col-lg-3">
                             <a href="#" class="action">
                                 <div class="img-holder">
                                     <div class="img"
-                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
+                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/6.jpg)">
                                     </div>
                                 </div>
-                                <div class="title">fine art prints</div>
-
+                                <div class="title">Framed Prints</div>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-6  col-lg-3">
                             <a href="#" class="action">
                                 <div class="img-holder">
                                     <div class="img"
-                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
+                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/3.jpg)">
                                     </div>
                                 </div>
-                                <div class="title">fine art prints</div>
-                            </a>
-                        </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <a href="#" class="action">
-                                <div class="img-holder">
-                                    <div class="img"
-                                        style=" background-image: url(<?php echo get_template_directory_uri()?>/imgs/101.jpg)">
-                                    </div>
-                                </div>
-                                <div class="title">fine art prints</div>
+                                <div class="title">Canvas Prints</div>
                             </a>
                         </div>
                     </div>
@@ -247,10 +197,9 @@ if ( is_front_page() ) {
                 <div class="button-action-holder">
                     <div class="action">
                         <div class="button-holder">
-
                         </div>
                         <div class="title">
-                            <div class="btn btn-dark rounded-0">
+                            <div class="btn  rounded-0">
                                 View Collections
                                 <i class="fa fa-chevron-right"></i>
                             </div>
@@ -264,6 +213,77 @@ if ( is_front_page() ) {
         <!-- ========================== -->
     </div>
 </section>
+
+<!-- =======================MY HOME SECTION==================== -->
+<section class="home-my-home">
+    <div class="margin-from-left">
+        <div class="row">
+            <div class="col-lg-6 col-md-9">
+                <h2>My Island Home</h2>
+                <div class="meta-data">
+                    <div class="category">
+                        Stories
+                    </div>
+                    <div class="post-details">
+                        <div class="date">
+                            <i class="fa fa-clock-o"></i>
+                            Posted 27 Jan 2022
+                        </div>
+                        <div class="sub-category">
+                            <i class="fa fa-edit"></i>
+                            Posted in travel
+                        </div>
+
+                    </div>
+                </div>
+                <p>
+                    Over the next few months w're going to share
+                    our favorite places around western Australia and beyond.
+                    Starting with our favorite spots in our local Hyde Park Precinect.
+                    Food, adventures, road, trips, photography
+                    destinations, hotels, swimming spots and more. We can't
+                    wait to share more of our wonderful state. New stories released weekly.
+                </p>
+                <div class="buttons">
+                    <a class="btn" href="#">Read this story
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                    <a class="btn" href="#">Read all storys
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-lg-6 ">
+                <div class="img-album ">
+                    <img src="<?php echo get_template_directory_uri() ?>/imgs/9.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =======================MY HOME Testimonials==================== -->
+<section class="home-my-testimonials">
+    <div class="margin-from-left">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>
+                    Testimonials
+                </h3>
+                <p>
+                    We had the most wonderful experience printing photos with Mohamed Khedr.
+                    We'd not printed anything form our wedding (a whole five years ago) but
+                    now we have framed photos hanging on our wall. It's so special to have our own photos
+                    around the house, feels much more like home. Thanks to Mohamed Khedr
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 
 <?php
