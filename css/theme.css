@@ -17130,6 +17130,11 @@ h1, .h1 {
   outline: none;
   padding: 0.25em 0.5em;
 }
+@media (max-width: 992px) {
+  #top-bar input {
+    width: 100%;
+  }
+}
 #top-bar .shipping-info {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -17196,7 +17201,6 @@ h1, .h1 {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    display: none;
   }
 }
 #top-bar .mobile-menu .fa {
@@ -17275,7 +17279,6 @@ h1, .h1 {
 .home-banner h2, .home-banner .h2 {
   margin-top: 100px;
   font-size: 30ps;
-  font-size: 20px;
   font-weight: 200;
   font-family: "Fira Sans", sans-serif;
   transition: 0.4s ease;
@@ -17786,12 +17789,19 @@ h1, .h1 {
   padding-bottom: 170px;
   overflow: hidden;
 }
+@media (max-width: 992px) {
+  .home-my-home {
+    padding-bottom: 100px;
+  }
+}
 .home-my-home .margin-from-left {
   margin-right: auto;
   max-width: initial;
 }
 .home-my-home .img-album {
-  padding-right: 3vw;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .home-my-home .img-album {
@@ -17801,12 +17811,14 @@ h1, .h1 {
 }
 @media (max-width: 768px) {
   .home-my-home .img-album {
-    height: 70vh;
+    height: 60vh;
     overflow: hidden;
   }
 }
 .home-my-home .img-album img {
-  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  left: 0;
 }
 @media (max-width: 992px) {
   .home-my-home .img-album img {
@@ -17859,6 +17871,9 @@ h1, .h1 {
   .home-my-home .meta-data .post-details {
     margin-right: -300px;
     margin-left: 0px;
+  }
+  .home-my-home .meta-data .post-details span {
+    display: none;
   }
 }
 .home-my-home .meta-data .post-details .date,
@@ -17915,8 +17930,237 @@ h1, .h1 {
 }
 
 .home-my-testimonials {
-  background-color: darkgray;
   min-height: 400px;
+}
+.home-my-testimonials .testimonial {
+  padding-top: 100px;
+}
+@media (max-width: 1500px) {
+  .home-my-testimonials .testimonial {
+    padding-top: 60px;
+  }
+}
+.home-my-testimonials .testimonial h3, .home-my-testimonials .testimonial .h3 {
+  font-size: 36px;
+  font-weight: 300;
+  color: #d0bda5;
+}
+.home-my-testimonials .testimonial p {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-family: "Fira Sans", sans-serif;
+}
+@media (max-width: 1500px) {
+  .home-my-testimonials .testimonial p {
+    font-size: 18px;
+  }
+}
+.home-my-testimonials .testimonial .author {
+  font-size: 36px;
+  font-weight: 500;
+  color: #d0bda5;
+}
+.home-my-testimonials .margin-from-left {
+  margin-right: auto;
+  max-width: initial;
+}
+.home-my-testimonials .minimum {
+  min-height: 400px;
+  background-color: #f3f0ec;
+  margin-top: -100px;
+  padding: 60px 10px 50px 30px;
+}
+@media (max-width: 992px) {
+  .home-my-testimonials .minimum {
+    margin-top: 20px;
+    margin-left: -80px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 768px) {
+  .home-my-testimonials .minimum {
+    margin-left: -30px;
+    padding-left: 30px;
+  }
+}
+.home-my-testimonials .minimum h2, .home-my-testimonials .minimum .h2 {
+  font-family: "Crimson Text", serif;
+  font-size: 60px;
+  font-style: italic;
+  margin-bottom: 90px;
+}
+@media (max-width: 1500px) {
+  .home-my-testimonials .minimum h2, .home-my-testimonials .minimum .h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 992px) {
+  .home-my-testimonials .minimum h2, .home-my-testimonials .minimum .h2 {
+    margin-bottom: 30px;
+  }
+}
+.home-my-testimonials .minimum p {
+  font-size: 24px;
+  font-weight: 200;
+  color: #000000;
+  font-family: "Fira Sans", sans-serif;
+}
+@media (max-width: 1500px) {
+  .home-my-testimonials .minimum p {
+    font-size: 18px;
+  }
+}
+.home-my-testimonials .minimum .btn, .home-my-testimonials .minimum .wpcf7 input[type=submit], .wpcf7 .home-my-testimonials .minimum input[type=submit], .home-my-testimonials .minimum .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .home-my-testimonials .minimum a.button, .home-my-testimonials .minimum .woocommerce-info a.button, .woocommerce-info .home-my-testimonials .minimum a.button {
+  margin-top: 30px;
+  background-color: #000000;
+  color: white;
+  border-radius: 0;
+}
+.home-my-testimonials .minimum .btn i, .home-my-testimonials .minimum .wpcf7 input[type=submit] i, .wpcf7 .home-my-testimonials .minimum input[type=submit] i, .home-my-testimonials .minimum .woocommerce-notices-wrapper .woocommerce-message a.button i, .woocommerce-notices-wrapper .woocommerce-message .home-my-testimonials .minimum a.button i, .home-my-testimonials .minimum .woocommerce-info a.button i, .woocommerce-info .home-my-testimonials .minimum a.button i {
+  margin-left: 0.7em;
+}
+.home-my-testimonials .minimum .btn:hover, .home-my-testimonials .minimum .wpcf7 input[type=submit]:hover, .wpcf7 .home-my-testimonials .minimum input[type=submit]:hover, .home-my-testimonials .minimum .woocommerce-notices-wrapper .woocommerce-message a.button:hover, .woocommerce-notices-wrapper .woocommerce-message .home-my-testimonials .minimum a.button:hover, .home-my-testimonials .minimum .woocommerce-info a.button:hover, .woocommerce-info .home-my-testimonials .minimum a.button:hover {
+  background-color: #d0bda5;
+}
+@media (max-width: 992px) {
+  .home-my-testimonials .minimum .btn, .home-my-testimonials .minimum .wpcf7 input[type=submit], .wpcf7 .home-my-testimonials .minimum input[type=submit], .home-my-testimonials .minimum .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-notices-wrapper .woocommerce-message .home-my-testimonials .minimum a.button, .home-my-testimonials .minimum .woocommerce-info a.button, .woocommerce-info .home-my-testimonials .minimum a.button {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: start;
+  }
+}
+
+.my-instagram {
+  padding-bottom: 50px;
+  margin-bottom: 90px;
+}
+@media (max-width: 992px) {
+  .my-instagram {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .my-instagram {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+.my-instagram .title-holder {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #f3f0ec;
+  margin-top: 50px;
+  font-size: 36px;
+  padding: 0.25em 0.5em;
+  color: #000000;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.my-instagram .title-holder i {
+  margin-right: 0.5em;
+  border-right: 0.5px dotted red;
+  padding-right: 0.5em;
+}
+.my-instagram .title-holder h3, .my-instagram .title-holder .h3 {
+  font-weight: 200;
+}
+.my-instagram .instagram-holder {
+  margin-top: 40px;
+}
+.my-instagram .instagram-holder .instagram {
+  height: 165px;
+}
+@media (max-width: 992px) {
+  .my-instagram .instagram-holder .instagram {
+    height: initial;
+  }
+  .my-instagram .instagram-holder .instagram div {
+    margin-bottom: 20px;
+  }
+}
+
+#wrapper-footer {
+  background-color: #f3f0ec;
+  padding-top: 100px;
+  padding-bottom: 90px;
+}
+@media (max-width: 992px) {
+  #wrapper-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+#wrapper-footer .margin-from-left {
+  max-width: initial;
+  margin-right: 5vw;
+}
+#wrapper-footer h2, #wrapper-footer .h2 {
+  font-family: "Crimson Text", serif;
+  font-size: 60px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+@media (max-width: 1500px) {
+  #wrapper-footer h2, #wrapper-footer .h2 {
+    font-size: 36px;
+  }
+}
+#wrapper-footer a {
+  display: block;
+  margin-bottom: 1em;
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+#wrapper-footer a i {
+  min-width: 2em;
+}
+#wrapper-footer input,
+#wrapper-footer textarea {
+  background-color: white;
+  border-radius: 0;
+  outline: none;
+  border: none;
+}
+#wrapper-footer input::-webkit-input-placeholder, #wrapper-footer textarea::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+#wrapper-footer input::-moz-placeholder, #wrapper-footer textarea::-moz-placeholder {
+  text-transform: uppercase;
+}
+#wrapper-footer input:-ms-input-placeholder, #wrapper-footer textarea:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+#wrapper-footer input::-ms-input-placeholder, #wrapper-footer textarea::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+#wrapper-footer input::placeholder,
+#wrapper-footer textarea::placeholder {
+  text-transform: uppercase;
+}
+#wrapper-footer input[type=submit],
+#wrapper-footer textarea[type=submit] {
+  background-color: #000000;
+  color: white;
+  max-width: 8em;
+}
+#wrapper-footer textarea {
+  height: 5.5em;
 }
 
 /*# sourceMappingURL=theme.css.map */
