@@ -227,11 +227,11 @@ if ( is_front_page() ) {
                     <div class="post-details">
                         <div class="date">
                             <i class="fa fa-clock-o"></i>
-                            Posted 27 Jan 2022
+                            <span>Posted</span> 27 Jan 2022
                         </div>
                         <div class="sub-category">
                             <i class="fa fa-edit"></i>
-                            Posted in travel
+                            <span>Posted in</span> travel
                         </div>
 
                     </div>
@@ -254,7 +254,7 @@ if ( is_front_page() ) {
 
                 </div>
             </div>
-            <div class="col-lg-6 ">
+            <div class="offset-lg-1 col-lg-5 ">
                 <div class="img-album ">
                     <img src="<?php echo get_template_directory_uri() ?>/imgs/9.jpg" alt="">
 
@@ -268,22 +268,67 @@ if ( is_front_page() ) {
 <section class="home-my-testimonials">
     <div class="margin-from-left">
         <div class="row">
-            <div class="col-lg-6">
-                <h3>
-                    Testimonials
-                </h3>
-                <p>
-                    We had the most wonderful experience printing photos with Mohamed Khedr.
-                    We'd not printed anything form our wedding (a whole five years ago) but
-                    now we have framed photos hanging on our wall. It's so special to have our own photos
-                    around the house, feels much more like home. Thanks to Mohamed Khedr
-                </p>
+            <div class="col-lg-6 col-md-9">
+                <div class="testimonial">
+                    <h3>
+                        Testimonials
+                    </h3>
+                    <p>
+                        We had the most wonderful experience printing photos with Mohamed Khedr.
+                        We'd not printed anything form our wedding (a whole five years ago) but
+                        now we have framed photos hanging on our wall. It's so special to have our own photos
+                        around the house, feels much more like home. Thanks to Mohamed Khedr
+                    </p>
+                    <div class="author">
+                        Sally & Andrew
+                    </div>
+                </div>
+            </div>
+
+            <div class="offset-lg-1 col-lg-5">
+                <div class="minimum">
+                    <h2>What's the minimum</h2>
+                    <p> We had the most wonderful experience printing photos with Mohamed Khedr.
+                        We'd not printed anything form our wedding (a whole five years ago) but
+                        now we have framed photos hanging on our wall. It's so special to have our own photos
+                        around the house, feels much more like home. Thanks to Mohamed Khedr
+                    </p>
+                    <a href="#" class="btn">
+                        Read all frequently asked questions
+                        <i class="fa fa-chevron-right"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </section>
-
-
+<!-- ======================= MY HOME Instagram==================== -->
+<section class="my-instagram">
+    <div class="margin-from-left">
+        <a href="#" class="title-holder">
+            <div class="icon">
+                <i class="fa fa-instagram"></i>
+            </div>
+            <h3>@khedr</h3>
+        </a>
+        <div class="instagram-holder">
+            <div class="instagram row">
+                <div class="col-lg-3 col-md-6">
+                    <img src="<?php echo get_template_directory_uri() ?>/imgs/110.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="<?php echo get_template_directory_uri() ?>/imgs/128.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="<?php echo get_template_directory_uri() ?>/imgs/119.jpg" alt="">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="<?php echo get_template_directory_uri() ?>/imgs/1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php
